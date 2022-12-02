@@ -1,0 +1,11 @@
+comandos Golang
+
+go run NOME-DO-ARQUIVO.go
+
+go mod init NOME-DO-MODULO -> cria um modulo onde vai ficar as dependencias 
+
+go build -> gera um executavel da aplicação
+
+go get NOME-DO-PACOTE-PARA-INSTALAR -> Comando usado para instalar pacotes inclusive do github
+
+go mod tidy -> remove todos importes de pacotes que não estão sendo usados na aplicação
